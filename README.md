@@ -12,10 +12,10 @@ The emulator's kernel can currently support most games, and many classic games c
 
 Simple examples include Tank Battle and Super Mario Bros. 1. More advanced examples include Ninja Turtles 1 to 3 (including fighting versions), Zelda, Metal Max, Dragon Quest, and Final Fantasy, among others.
 Of course, there are still many areas that need to be improved, such as:
-Only a few relatively mainstream mappers are supported, such as 0~4, 74. Other mappers have not been supported (these problems should not be significant). The most difficult part is mapper 5, which is in support, but I have encountered some bugs.
-Some small features of the PPU (the graphics processing unit) have not been implemented, but most games do not use these features, such as Emphasize Color and Edge Clipping (Crop).
-Due to insufficient debugging, there may be some malignant bugs that I have not discovered (although I played some games without problems).
-And many more.
+1. Only a few relatively mainstream mappers are supported, such as 0~4, 74. Other mappers have not been supported (these problems should not be significant). The most difficult part is mapper 5, which is in support, but I have encountered some bugs.
+2. Some small features of the PPU (the graphics processing unit) have not been implemented, but most games do not use these features, such as Emphasize Color and Edge Clipping (Crop).
+3. Due to insufficient debugging, there may be some malignant bugs that I have not discovered (although I played some games without problems).
+4. And many more.
 
 ## Front-end Part
 
