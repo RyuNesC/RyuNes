@@ -6,7 +6,7 @@ Hello everyone, please call me Ryu. This is an Nes emulator I developed independ
 
 I wrote this emulator mainly out of personal interest. From start to finish, I completed the initial version independently, including learning Nes hardware, programming, and debugging.
 A so-called completely independent development means that all the code in the kernel (Nes) is developed by myself without using any third-party libraries. This includes the core of the game: CPU instruction set, PPU graphics processing unit, and APU sound processing unit, as well as the Nes-specific mapper mechanism.
-The emulator's kernel can currently support most games, and many classic games can be played normally.
+The emulator's kernel can currently support most games, and many classic games can be played.
 
 Simple examples include Tank Battle and Super Mario Bros. 1. More advanced examples include Ninja Turtles 1 to 3 (including fighting versions), Zelda, Metal Slug, Dragon Quest, and Final Fantasy, among others.
 Of course, there are still many areas that need to be improved, such as:
