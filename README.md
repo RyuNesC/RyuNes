@@ -35,3 +35,13 @@ I don't know if there are any friends willing to assist me in developing mapper 
 Here is an SDL front-end running Dragon Fighter:
 
 ![Dragon Fighter](https://github.com/RyuNesC/RyuNes/blob/main/ryu-nes/DemoAssets/demo001.png)
+
+## Contact Me
+If you are interested in the project, you can contact me. This is my email: roof456@qq.com.
+
+If you can help me support Mapper 5, I am willing to pay you $100 :)
+
+You can also add me on WeChat to communicate.
+
+![My WeChat](https://github.com/RyuNesC/RyuNes/blob/main/ryu-nes/DemoAssets/wechat.jpg)
+
