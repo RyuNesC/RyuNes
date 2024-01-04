@@ -8,7 +8,7 @@ I wrote this emulator mainly out of personal interest. From start to finish, I c
 A so-called completely independent development means that all the code in the kernel (Nes) is developed by myself without using any third-party libraries. This includes the core of the game: CPU instruction set, PPU graphics processing unit, and APU sound processing unit, as well as the Nes-specific mapper mechanism.
 The emulator's kernel can currently support most games, and many classic games can be played.
 
-Simple examples include Tank Battle and Super Mario Bros. 1. More advanced examples include Ninja Turtles 1 to 3 (including fighting versions), Zelda, Metal Slug, Dragon Quest, and Final Fantasy, among others.
+Simple examples include Tank Battle and Super Mario Bros. 1. More advanced examples include Ninja Turtles 1 to 3 (including fighting versions), Zelda, Metal Max, Dragon Quest, and Final Fantasy, among others.
 Of course, there are still many areas that need to be improved, such as:
 Only a few relatively mainstream mappers are supported, such as 0~4, 74. Other mappers have not been supported (these problems should not be significant). The most difficult part is mapper 5, which is in support, but I have encountered some bugs (bugs).
 Some small features of the PPU (i.e., the graphics processing unit) have not been implemented, but most games do not use these features, such as Emphasize Color and Edge Clipping (Crop).
