@@ -34,4 +34,4 @@ I don't know if there are any friends willing to assist me in developing mapper 
 
 Here is an SDL front-end running Dragon Fighter:
 
-![Dragon Fighter]([https://gitee.com/ryunes/ryu-nes/raw/master/DemoAssets/demo001.png](https://github.com/RyuNesC/RyuNes/blob/main/ryu-nes/DemoAssets/demo001.png)https://github.com/RyuNesC/RyuNes/blob/main/ryu-nes/DemoAssets/demo001.png)
+![Dragon Fighter](https://github.com/RyuNesC/RyuNes/blob/main/ryu-nes/DemoAssets/demo001.png)
