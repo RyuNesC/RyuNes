@@ -46,7 +46,7 @@
 
 以下是 SDL 前端运行的 Dragon Fighter：
 
-![Dragon Fighter](https://gitee.com/ryunes/ryu-nes/raw/master/DemoAssets/demo001.png)
+![Dragon Fighter](https://github.com/RyuNesC/RyuNes/blob/main/ryu-nes/DemoAssets/demo001.png)
 
 # 联系我
 
@@ -56,4 +56,4 @@
 
 你也可以加我微信交流。
 
-![My Wechat](https://gitee.com/ryunes/ryu-nes/raw/master/DemoAssets/wechat.jpg)
+![My Wechat](https://github.com/RyuNesC/RyuNes/blob/main/ryu-nes/DemoAssets/wechat.jpg)
