@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371E4E6D2B405F8300EA613C /* iNesAPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E182B405E2200EA613C /* iNesAPU.cpp */; };
+		371E4E6E2B405F8E00EA613C /* iNesFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E252B405E2200EA613C /* iNesFile.cpp */; };
+		371E4E6F2B405F9100EA613C /* iNesInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E2A2B405E2200EA613C /* iNesInstance.cpp */; };
+		371E4E702B405F9400EA613C /* iNesMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E132B405E2200EA613C /* iNesMapper.cpp */; };
+		371E4E712B405F9800EA613C /* iNesMapper000.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E1D2B405E2200EA613C /* iNesMapper000.cpp */; };
+		371E4E722B405F9A00EA613C /* iNesMapper001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E1E2B405E2200EA613C /* iNesMapper001.cpp */; };
+		371E4E732B405F9D00EA613C /* iNesMapper002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E202B405E2200EA613C /* iNesMapper002.cpp */; };
+		371E4E742B405FA000EA613C /* iNesMapper003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E1F2B405E2200EA613C /* iNesMapper003.cpp */; };
+		371E4E752B405FA200EA613C /* iNesMapper004.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E1B2B405E2200EA613C /* iNesMapper004.cpp */; };
+		371E4E762B405FA400EA613C /* iNesMapper005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E1A2B405E2200EA613C /* iNesMapper005.cpp */; };
+		371E4E772B405FA600EA613C /* iNesMapper074.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E172B405E2200EA613C /* iNesMapper074.cpp */; };
+		371E4E782B405FA900EA613C /* iNesPad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E192B405E2200EA613C /* iNesPad.cpp */; };
+		371E4E792B405FAB00EA613C /* iNesPPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E2D2B405E2200EA613C /* iNesPPU.cpp */; };
+		371E4E7A2B405FAD00EA613C /* INesSaveRAM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E2E2B405E2200EA613C /* INesSaveRAM.cpp */; };
+		371E4E7B2B405FAF00EA613C /* NesCPUImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 371E4E2C2B405E2200EA613C /* NesCPUImpl.cpp */; };
+		37A1978229EB8974004A0E2B /* NesWrap2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37A1978129EB8974004A0E2B /* NesWrap2.mm */; };
+		37EBB16E298F7CF800ECBCCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EBB16D298F7CF800ECBCCC /* main.m */; };
+		37EBB176298F7DC600ECBCCC /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EBB175298F7DC600ECBCCC /* libSDL2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37EBB168298F7CF800ECBCCC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		371E4E132B405E2200EA613C /* iNesMapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper.cpp; sourceTree = "<group>"; };
+		371E4E142B405E2200EA613C /* NesCPUImpl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NesCPUImpl.hpp; sourceTree = "<group>"; };
+		371E4E152B405E2200EA613C /* iNesPPU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesPPU.hpp; sourceTree = "<group>"; };
+		371E4E162B405E2200EA613C /* INesSaveRAM.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = INesSaveRAM.hpp; sourceTree = "<group>"; };
+		371E4E172B405E2200EA613C /* iNesMapper074.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper074.cpp; sourceTree = "<group>"; };
+		371E4E182B405E2200EA613C /* iNesAPU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesAPU.cpp; sourceTree = "<group>"; };
+		371E4E192B405E2200EA613C /* iNesPad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesPad.cpp; sourceTree = "<group>"; };
+		371E4E1A2B405E2200EA613C /* iNesMapper005.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper005.cpp; sourceTree = "<group>"; };
+		371E4E1B2B405E2200EA613C /* iNesMapper004.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper004.cpp; sourceTree = "<group>"; };
+		371E4E1C2B405E2200EA613C /* iNesFile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesFile.hpp; sourceTree = "<group>"; };
+		371E4E1D2B405E2200EA613C /* iNesMapper000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper000.cpp; sourceTree = "<group>"; };
+		371E4E1E2B405E2200EA613C /* iNesMapper001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper001.cpp; sourceTree = "<group>"; };
+		371E4E1F2B405E2200EA613C /* iNesMapper003.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper003.cpp; sourceTree = "<group>"; };
+		371E4E202B405E2200EA613C /* iNesMapper002.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesMapper002.cpp; sourceTree = "<group>"; };
+		371E4E212B405E2200EA613C /* iNesInstance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesInstance.hpp; sourceTree = "<group>"; };
+		371E4E222B405E2200EA613C /* iNesPad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesPad.hpp; sourceTree = "<group>"; };
+		371E4E232B405E2200EA613C /* iNesMapper005.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper005.hpp; sourceTree = "<group>"; };
+		371E4E242B405E2200EA613C /* iNesMapper004.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper004.hpp; sourceTree = "<group>"; };
+		371E4E252B405E2200EA613C /* iNesFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesFile.cpp; sourceTree = "<group>"; };
+		371E4E262B405E2200EA613C /* iNesMapper000.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper000.hpp; sourceTree = "<group>"; };
+		371E4E272B405E2200EA613C /* iNesMapper001.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper001.hpp; sourceTree = "<group>"; };
+		371E4E282B405E2200EA613C /* iNesMapper003.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper003.hpp; sourceTree = "<group>"; };
+		371E4E292B405E2200EA613C /* iNesMapper002.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper002.hpp; sourceTree = "<group>"; };
+		371E4E2A2B405E2200EA613C /* iNesInstance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesInstance.cpp; sourceTree = "<group>"; };
+		371E4E2B2B405E2200EA613C /* iNesMapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper.hpp; sourceTree = "<group>"; };
+		371E4E2C2B405E2200EA613C /* NesCPUImpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NesCPUImpl.cpp; sourceTree = "<group>"; };
+		371E4E2D2B405E2200EA613C /* iNesPPU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iNesPPU.cpp; sourceTree = "<group>"; };
+		371E4E2E2B405E2200EA613C /* INesSaveRAM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = INesSaveRAM.cpp; sourceTree = "<group>"; };
+		371E4E2F2B405E2200EA613C /* iNesMapper074.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesMapper074.hpp; sourceTree = "<group>"; };
+		371E4E302B405E2200EA613C /* iNesAPU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iNesAPU.hpp; sourceTree = "<group>"; };
+		37A1977E29EB8959004A0E2B /* NesWrap2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NesWrap2.h; sourceTree = "<group>"; };
+		37A1978129EB8974004A0E2B /* NesWrap2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NesWrap2.mm; sourceTree = "<group>"; };
+		37EBB16A298F7CF800ECBCCC /* ryu-nesc-sdl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ryu-nesc-sdl"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EBB16D298F7CF800ECBCCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37EBB175298F7DC600ECBCCC /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../../../../../../opt/homebrew/Cellar/sdl2/2.0.18/lib/libSDL2.a; sourceTree = "<group>"; };
+		37EBB177298F7EB500ECBCCC /* ryu-nesc-sdl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ryu-nesc-sdl.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EBB167298F7CF800ECBCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EBB176298F7DC600ECBCCC /* libSDL2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371E4E122B405E2200EA613C /* Nes */ = {
+			isa = PBXGroup;
+			children = (
+				371E4E182B405E2200EA613C /* iNesAPU.cpp */,
+				371E4E302B405E2200EA613C /* iNesAPU.hpp */,
+				371E4E252B405E2200EA613C /* iNesFile.cpp */,
+				371E4E1C2B405E2200EA613C /* iNesFile.hpp */,
+				371E4E2A2B405E2200EA613C /* iNesInstance.cpp */,
+				371E4E212B405E2200EA613C /* iNesInstance.hpp */,
+				371E4E132B405E2200EA613C /* iNesMapper.cpp */,
+				371E4E2B2B405E2200EA613C /* iNesMapper.hpp */,
+				371E4E1D2B405E2200EA613C /* iNesMapper000.cpp */,
+				371E4E262B405E2200EA613C /* iNesMapper000.hpp */,
+				371E4E1E2B405E2200EA613C /* iNesMapper001.cpp */,
+				371E4E272B405E2200EA613C /* iNesMapper001.hpp */,
+				371E4E202B405E2200EA613C /* iNesMapper002.cpp */,
+				371E4E292B405E2200EA613C /* iNesMapper002.hpp */,
+				371E4E1F2B405E2200EA613C /* iNesMapper003.cpp */,
+				371E4E282B405E2200EA613C /* iNesMapper003.hpp */,
+				371E4E1B2B405E2200EA613C /* iNesMapper004.cpp */,
+				371E4E242B405E2200EA613C /* iNesMapper004.hpp */,
+				371E4E1A2B405E2200EA613C /* iNesMapper005.cpp */,
+				371E4E232B405E2200EA613C /* iNesMapper005.hpp */,
+				371E4E172B405E2200EA613C /* iNesMapper074.cpp */,
+				371E4E2F2B405E2200EA613C /* iNesMapper074.hpp */,
+				371E4E192B405E2200EA613C /* iNesPad.cpp */,
+				371E4E222B405E2200EA613C /* iNesPad.hpp */,
+				371E4E2D2B405E2200EA613C /* iNesPPU.cpp */,
+				371E4E152B405E2200EA613C /* iNesPPU.hpp */,
+				371E4E2E2B405E2200EA613C /* INesSaveRAM.cpp */,
+				371E4E162B405E2200EA613C /* INesSaveRAM.hpp */,
+				371E4E2C2B405E2200EA613C /* NesCPUImpl.cpp */,
+				371E4E142B405E2200EA613C /* NesCPUImpl.hpp */,
+			);
+			path = Nes;
+			sourceTree = "<group>";
+		};
+		37EBB161298F7CF800ECBCCC = {
+			isa = PBXGroup;
+			children = (
+				371E4E122B405E2200EA613C /* Nes */,
+				37EBB16C298F7CF800ECBCCC /* ryu-nesc-sdl */,
+				37EBB16B298F7CF800ECBCCC /* Products */,
+				37EBB174298F7DC500ECBCCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37EBB16B298F7CF800ECBCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EBB16A298F7CF800ECBCCC /* ryu-nesc-sdl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EBB16C298F7CF800ECBCCC /* ryu-nesc-sdl */ = {
+			isa = PBXGroup;
+			children = (
+				37EBB177298F7EB500ECBCCC /* ryu-nesc-sdl.entitlements */,
+				37EBB16D298F7CF800ECBCCC /* main.m */,
+				37A1977E29EB8959004A0E2B /* NesWrap2.h */,
+				37A1978129EB8974004A0E2B /* NesWrap2.mm */,
+			);
+			path = "ryu-nesc-sdl";
+			sourceTree = "<group>";
+		};
+		37EBB174298F7DC500ECBCCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37EBB175298F7DC600ECBCCC /* libSDL2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EBB169298F7CF800ECBCCC /* ryu-nesc-sdl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EBB171298F7CF800ECBCCC /* Build configuration list for PBXNativeTarget "ryu-nesc-sdl" */;
+			buildPhases = (
+				37EBB166298F7CF800ECBCCC /* Sources */,
+				37EBB167298F7CF800ECBCCC /* Frameworks */,
+				37EBB168298F7CF800ECBCCC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ryu-nesc-sdl";
+			productName = "ryu-nesc-sdl";
+			productReference = 37EBB16A298F7CF800ECBCCC /* ryu-nesc-sdl */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EBB162298F7CF800ECBCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					37EBB169298F7CF800ECBCCC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 37EBB165298F7CF800ECBCCC /* Build configuration list for PBXProject "ryu-nesc-sdl" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EBB161298F7CF800ECBCCC;
+			productRefGroup = 37EBB16B298F7CF800ECBCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EBB169298F7CF800ECBCCC /* ryu-nesc-sdl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EBB166298F7CF800ECBCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371E4E742B405FA000EA613C /* iNesMapper003.cpp in Sources */,
+				371E4E732B405F9D00EA613C /* iNesMapper002.cpp in Sources */,
+				371E4E702B405F9400EA613C /* iNesMapper.cpp in Sources */,
+				37A1978229EB8974004A0E2B /* NesWrap2.mm in Sources */,
+				37EBB16E298F7CF800ECBCCC /* main.m in Sources */,
+				371E4E6D2B405F8300EA613C /* iNesAPU.cpp in Sources */,
+				371E4E6E2B405F8E00EA613C /* iNesFile.cpp in Sources */,
+				371E4E6F2B405F9100EA613C /* iNesInstance.cpp in Sources */,
+				371E4E722B405F9A00EA613C /* iNesMapper001.cpp in Sources */,
+				371E4E712B405F9800EA613C /* iNesMapper000.cpp in Sources */,
+				371E4E752B405FA200EA613C /* iNesMapper004.cpp in Sources */,
+				371E4E782B405FA900EA613C /* iNesPad.cpp in Sources */,
+				371E4E772B405FA600EA613C /* iNesMapper074.cpp in Sources */,
+				371E4E7B2B405FAF00EA613C /* NesCPUImpl.cpp in Sources */,
+				371E4E7A2B405FAD00EA613C /* INesSaveRAM.cpp in Sources */,
+				371E4E792B405FAB00EA613C /* iNesPPU.cpp in Sources */,
+				371E4E762B405FA400EA613C /* iNesMapper005.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37EBB16F298F7CF800ECBCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37EBB170298F7CF800ECBCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37EBB172298F7CF800ECBCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ryu-nesc-sdl/ryu-nesc-sdl.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 84B2TFTNN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/sdl2/2.0.18/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/sdl2/2.0.18/include;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		37EBB173298F7CF800ECBCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ryu-nesc-sdl/ryu-nesc-sdl.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 84B2TFTNN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/sdl2/2.0.18/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/sdl2/2.0.18/include;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EBB165298F7CF800ECBCCC /* Build configuration list for PBXProject "ryu-nesc-sdl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EBB16F298F7CF800ECBCCC /* Debug */,
+				37EBB170298F7CF800ECBCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EBB171298F7CF800ECBCCC /* Build configuration list for PBXNativeTarget "ryu-nesc-sdl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EBB172298F7CF800ECBCCC /* Debug */,
+				37EBB173298F7CF800ECBCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EBB162298F7CF800ECBCCC /* Project object */;
+}
