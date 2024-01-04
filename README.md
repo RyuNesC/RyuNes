@@ -4,6 +4,8 @@
 
 Hello everyone, please call me Ryu. This is an Nes emulator I developed independently.
 
+The core part of the code is written in C, although I use the file extensions hpp and cpp.
+
 I wrote this emulator mainly out of personal interest. From start to finish, I completed the initial version independently, including learning Nes hardware, programming, and debugging.
 A so-called completely independent development means that all the code in the kernel (Nes) is developed by myself without using any third-party libraries. This includes the core of the game: CPU instruction set, PPU graphics processing unit, and APU sound processing unit, as well as the Nes-specific mapper mechanism.
 The emulator's kernel can currently support most games, and many classic games can be played.
